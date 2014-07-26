@@ -4,7 +4,7 @@
 
     This Project shows demo to check whether internet connectivity is available or not available
 
-![Screen Navigation](https://github.com/devrath/FragmentTransactions/blob/master/snapshot.png)
+![Screen Navigation](https://github.com/devrath/CheckForInternetConnectivity/blob/master/snapshot.png)
 
 
 ---
