@@ -110,4 +110,33 @@ public class MainActivity extends Activity {
 			}
 		return false;
 	}
+	
+	
+	/*
+	//APACHE HTTP-WITH timeout
+	//If you are using Apache Http connection use this code to check Internet connectivity
+	public static boolean hasActiveInternetConnection() {
+		//Check whether we are able to connect to a webservice
+		try {
+			HttpGet httpget=null;
+			String mContent=null;
+			HttpClient Client=null;
+			
+			HttpParams params = new BasicHttpParams();
+		    	HttpConnectionParams.setConnectionTimeout(params, 500);
+	
+			Client = new DefaultHttpClient(params);
+			httpget = new HttpGet("http://www.google.com");
+			ResponseHandler<String> responseHandler = new BasicResponseHandler();
+			mContent = Client.execute(httpget, responseHandler);
+		    
+			return true;
+		} catch (IOException e) {
+			Log.e("Log", "Error checking internet connection", e);
+		}
+	return false;
+	}
+	*/
+	
+	
 }
