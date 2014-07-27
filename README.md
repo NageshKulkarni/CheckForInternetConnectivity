@@ -17,6 +17,11 @@
 
 * If both conditions are true display message `Connected to internet` otherwise display message as `Not connected to internet`
 
+* Add these lines in the manifest
+  `<uses-permission android:name="android.permission.INTERNET" />`
+  `<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`
+
+
 ---
 
 ## App Specifications
